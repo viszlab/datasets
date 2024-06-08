@@ -24,10 +24,13 @@ $ git clone git@github.com:viszlab/datasets.git
 ## Project Structure
 ```
 ├── docs                    # Images and documentation for the repo
-├── monitor-charts          # Output graphs of the monitor notebooks
+├── evaluation-data         # Raw .csv export from qualtrics and transcriptions (not included)
 ├── monitor-data            # Raw .csv logs from the monitors (not included)
 ├── survey-data             # Raw .csv export from qualtrics (not included)
+├── evaluation-charts       # Output graphs of the monitor notebooks
+├── monitor-charts          # Output graphs of the monitor notebooks
 ├── survey-charts           # Output graphs of the survey notebooks
+├── evaluation-notebooks    # Notebooks to analyse evaluation data
 ├── monitor-notebooks       # Notebooks to analyse monitoring data
 └── survey-notebooks        # Notebooks to analyse survey data
 ```
